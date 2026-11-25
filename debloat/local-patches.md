@@ -16,8 +16,6 @@ named dep entries (or module blocks) listed below.
 | Project | File | Change |
 |---|---|---|
 | packages/modules/ExtServices | java/tests/hosttests/Android.bp | removed `adservices-host-side-test-utility` from static_libs of CtsExtServicesHostTests-{tplus,sminus} |
-| frameworks/base | AconfigFlags.bp | removed `com.android.eyedropper.flags-aconfig-java` + `sdk_sandbox_exported_flags_lib` from framework-minus-apex-aconfig-declarations |
-| frameworks/base | api/Android.bp | removed `framework-adservices`, `framework-ondevicepersonalization`, `framework-sdksandbox`, `service-sdksandbox` from frameworks-base-api classpaths |
 | cts | tests/tests/neuralnetworks/benchmark/Android.bp | removed CtsNNAPIBenchmarkTestCases (needs mlts model assets) |
 | test/vts-testcase/hal | neuralnetworks/V1_2/benchmark/java/Android.bp | removed VtsHalNeuralnetworksV1_2BenchmarkTestCases |
 | test/vts-testcase/hal | neuralnetworks/V1_3/benchmark/java/Android.bp | removed VtsHalNeuralnetworksV1_3BenchmarkTestCases |
@@ -40,6 +38,7 @@ PRODUCT_PACKAGES by `config/debloat.mk` instead — source in tree,
 nothing lands on the image:
 
 - packages/apps/Launcher3 (com_android_launcher3_flags_lib, launcher-aosp-tapl)
+- packages/apps/EyeDropper (flags-aconfig-java lib used by Intent.java)
 - packages/apps/Car/* (all source repos; only *Prebuilt blobs stay out)
 - packages/apps/TvSettings, packages/apps/SettingsIntelligence, packages/apps/Traceur
 - packages/modules/AdServices + OnDevicePersonalization (sdksandbox stubs/flags for services.jar)
