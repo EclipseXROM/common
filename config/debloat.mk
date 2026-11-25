@@ -67,11 +67,20 @@ ECLIPSEX_DEBLOAT += \
     WallpaperPicker
 
 # --- TV / automotive apps (no-op on phone targets) ---------------------------
+# Car/SystemUI + Car/systemlibs source must sync (hard build deps), so the
+# car UI payloads are filtered here instead of at manifest level.
 ECLIPSEX_DEBLOAT += \
     TV \
     TvSettings \
     TvSystemUI \
-    TvFeedbackConsent
+    TvFeedbackConsent \
+    CarSystemUI \
+    CarDistantDisplaySystemUI \
+    CarLauncher \
+    CarSettings \
+    CarMediaApp \
+    CarDialerApp \
+    CarRadioApp
 
 # Kept on purpose (compatibility surface - do NOT add to the list):
 #   WebView / chromium-webview   WebView API used by countless apps
