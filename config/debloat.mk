@@ -6,11 +6,12 @@
 # PRODUCT_PACKAGES at include time.
 #
 # Module names (not java package names) are filtered. Names follow
-# AOSP convention; verify against your branch with
-#     m nothing && grep in out/... for installed module names
+# AOSP convention; verify against your branch if a name changed.
 #
-# The heavier, repo-level strip lives in the manifest's debloat.xml.
-# The runtime, on-device strip tool is debloat/debloat.sh.
+# This is a safety net: the manifest's debloat.xml already removes the
+# SOURCE of everything below, so most entries are no-ops - they only
+# matter when a product mk still lists a module whose repo is gone
+# (that would be a build error otherwise).
 #
 
 # --- Google-branded / search / ads -----------------------------------------
@@ -19,19 +20,32 @@ ECLIPSEX_DEBLOAT := \
     QuickAccessWallet \
     OnDeviceAppPrediction \
     SampleLocationAttribution \
-    DeviceDiagnostics
+    DeviceDiagnostics \
+    com.android.adservices \
+    com.android.ondevicepersonalization
 
 # --- AOSP stock apps replaced by the EclipseX suite -------------------------
 ECLIPSEX_DEBLOAT += \
     Browser2 \
     Calendar \
-    DeskClock \
+    AvatarPicker \
     Gallery \
     Gallery2 \
     Music \
     MusicFX \
     HTMLViewer \
     LegacyCamera
+
+# --- Remaining stock/utility bloat (source removed in debloat.xml) ---------
+ECLIPSEX_DEBLOAT += \
+    DeskClock \
+    Messaging \
+    Stk \
+    EmergencyInfo \
+    SafetyRegulatoryInfo \
+    SettingsIntelligence \
+    PrivateSpace \
+    ImsServiceEntitlement
 
 # --- Dev / demo / leftover apps ---------------------------------------------
 ECLIPSEX_DEBLOAT += \
@@ -60,18 +74,6 @@ ECLIPSEX_DEBLOAT += \
     TvSystemUI \
     TvFeedbackConsent
 
-# --- Caveat group (enabled, review before shipping) ---------------------------
-# These drop a named feature or a carrier/compliance surface:
-#   Stk                  - SIM Toolkit UI (some carrier certifications want it)
-#   Messaging            - default SMS role holder; keep if you ship no SMS app
-#   EmergencyInfo        - emergency medical info screen
-#   SafetyRegulatoryInfo - regulatory marks (regional compliance)
-#   PrivateSpace         - Android 15+ private space feature
-#   SettingsIntelligence - settings search suggestions (search still works)
-ECLIPSEX_DEBLOAT += \
-    PrivateSpace \
-    SettingsIntelligence
-
 # Kept on purpose (compatibility surface - do NOT add to the list):
 #   WebView / chromium-webview   WebView API used by countless apps
 #   DocumentsUI                  SAF picker backend (ACTION_OPEN_DOCUMENT)
@@ -80,17 +82,15 @@ ECLIPSEX_DEBLOAT += \
 #   CarrierConfig                carrier settings database
 #   CellBroadcastReceiver        emergency alerts (regulatory)
 #   Contacts / providers         PIM APIs and content providers
-#   Dialer, BasicSmsReceiver     telephony + emergency-call surface
-#   SecureElement, Stk, Messaging, EmergencyInfo, SafetyRegulatoryInfo
-#                                see caveat notes above
+#   Dialer, BasicSmsReceiver, PhoneCommon
+#                                telephony + emergency-call surface
+#   SecureElement                NFC/secure-element API surface
 #   StorageManager               storage settings surface
 #   SystemUI / SystemUIGo        system UI (Go variant for low-RAM)
+#   CaptivePortalLogin, Provision  boot/setup flow
 #   StatsD, Permission, SdkExtensions, ExtServices, IntentResolver,
-#   MediaProvider, all packages/modules/* platform modules
+#   MediaProvider, all other packages/modules/*
 #                                API surface + runtime - removal breaks
 #                                CTS and/or third-party apps
-#   AdServices, OnDevicePersonalization
-#                                Privacy Sandbox APIs; see debloat.xml
-#                                group "google-ads" to strip the source.
 
 PRODUCT_PACKAGES := $(filter-out $(ECLIPSEX_DEBLOAT),$(PRODUCT_PACKAGES))
