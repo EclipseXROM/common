@@ -39,7 +39,6 @@ ECLIPSEX_DEBLOAT += \
 # --- Remaining stock/utility bloat (source removed in debloat.xml) ---------
 ECLIPSEX_DEBLOAT += \
     DeskClock \
-    Messaging \
     Stk \
     EmergencyInfo \
     SafetyRegulatoryInfo \
@@ -82,8 +81,8 @@ ECLIPSEX_DEBLOAT += \
 #   CarrierConfig                carrier settings database
 #   CellBroadcastReceiver        emergency alerts (regulatory)
 #   Contacts / providers         PIM APIs and content providers
-#   Dialer, BasicSmsReceiver, PhoneCommon
-#                                telephony + emergency-call surface
+#   Dialer, Messaging, BasicSmsReceiver, PhoneCommon
+#                                telephony + SMS + emergency-call surface
 #   SecureElement                NFC/secure-element API surface
 #   StorageManager               storage settings surface
 #   SystemUI / SystemUIGo        system UI (Go variant for low-RAM)
