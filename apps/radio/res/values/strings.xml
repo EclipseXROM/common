@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MRPL Radio</string>
+    <string name="brand_line">MRPL RADIO</string>
+    <string name="stop">Stop</string>
+    <string name="state_idle">Pick a station</string>
+    <string name="state_connecting">Connecting…</string>
+    <string name="state_playing">Playing</string>
+    <string name="state_error">Cannot play this station. Check the connection.</string>
+    <string name="station_main">MRPL</string>
+    <string name="station_main_sub">Main stream</string>
+    <string name="station_classics">MRPL Classics</string>
+    <string name="station_classics_sub">Classics stream</string>
+</resources>

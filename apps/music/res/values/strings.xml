@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Music</string>
+    <string name="brand_line">MANIKINEKO MUSIC</string>
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="empty_hint">No music found on the phone.</string>
+    <string name="nothing">Nothing playing</string>
+    <string name="unknown_artist">Unknown artist</string>
+</resources>

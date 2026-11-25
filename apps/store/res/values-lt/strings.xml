@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Parduotuvė</string>
+    <string name="brand_line">MANIKINEKO PARDUOTUVĖ</string>
+    <string name="refresh">Atnaujinti</string>
+    <string name="install">Įdiegti</string>
+    <string name="update">Atnaujinti programą</string>
+    <string name="uninstall">Pašalinti</string>
+    <string name="open">Atidaryti</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="loading">Kraunama…</string>
+    <string name="empty_hint">Parduotuvėje programų dar nėra.</string>
+    <string name="state_new">Neįdiegta</string>
+    <string name="state_installed">Įdiegta %1$s</string>
+    <string name="state_update">Įdiegta %1$s → atnaujinti į %2$s</string>
+    <string name="err_network">Nepavyko pasiekti parduotuvės.</string>
+    <string name="err_signature">Katalogo parašas netinkamas. Nieko nepakeista.</string>
+    <string name="err_hash">Failas sugadintas (nesutampa kontrolinė suma). Nieko neįdiegta.</string>
+    <string name="err_install">Diegimas nepavyko: %1$s</string>
+    <string name="downloading">Siunčiama %1$s…</string>
+    <string name="installing">Diegiama %1$s…</string>
+    <string name="done">%1$s įdiegta.</string>
+    <string name="min_sdk_fail">Reikia naujesnio Android.</string>
+    <string name="updated">Katalogas: %1$s</string>
+    <string name="update_all">Atnaujinti visas</string>
+    <string name="up_to_date">Viskas naujausia · katalogas %1$s</string>
+    <plurals name="updates_available">
+        <item quantity="one">Yra %1$d naujinimas</item>
+        <item quantity="few">Yra %1$d naujinimai</item>
+        <item quantity="other">Yra %1$d naujinimų</item>
+    </plurals>
+    <string name="confirm_install">Patvirtinkite %1$s diegimą ekrane.</string>
+</resources>

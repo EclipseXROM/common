@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- catalog signing public key (X.509 DER, base64) from store/store-pubkey.b64; regenerate if the key is ever replaced -->
+    <string name="catalog_pubkey" translatable="false">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnFk9ToIXMB9lQrk03X/N8zgtg5lkXwqO1QOrml555keLdbGyjO+R9b6dZbHIK2SLSt1UpG08F7RZ2Xt/7FaYp8bnuvDsU+sb5gnhbnvklrBH6U+t4nZ0SxSfRxhz9aWnFTTyhHdRazCDpSm89Tp6c2swo2R17/Pn1t2FvZ1L0jKcBHjIrBXDm3vfbPPRMC7tAju1okmK4OxDsA0IUfnfanvpZAP6CzfD9cwxTC3lhwB4UqYPzBSkz6zrDbXislYaHbhz5p70E4u5bxBTv1WPuBRfs+RgXFPwJ3cbc+HpZ3xIi0lRJFeulXwLVxlU6n8ZFwureZVBlr5tf0UOZuZg5QIDAQAB</string>
+    <string name="catalog_base" translatable="false">https://apps.zyghosting.online/</string>
+</resources>

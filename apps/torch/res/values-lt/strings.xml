@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Žibintuvėlis</string>
+    <string name="on">ĮJUNGTA</string>
+    <string name="off">IŠJUNGTA</string>
+    <string name="err">Žibintuvėlio panaudoti nepavyko.</string>
+</resources>

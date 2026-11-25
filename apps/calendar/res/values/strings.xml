@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="brand_line">MANIKINEKO CALENDAR</string>
+    <string name="new_event">New</string>
+    <string name="title_hint">Event title</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_confirm">Delete \"%1$s\"?</string>
+    <string name="empty_hint">No events on this day.</string>
+    <string name="reminder">Reminder</string>
+</resources>

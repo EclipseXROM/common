@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Muzika</string>
+    <string name="brand_line">MANIKINEKO MUZIKA</string>
+    <string name="prev">Atgal</string>
+    <string name="next">Pirmyn</string>
+    <string name="play">Groti</string>
+    <string name="pause">Pauzė</string>
+    <string name="empty_hint">Telefone muzikos nerasta.</string>
+    <string name="nothing">Nieko negroja</string>
+    <string name="unknown_artist">Nežinomas atlikėjas</string>
+</resources>

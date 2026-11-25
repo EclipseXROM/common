@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Store</string>
+    <string name="brand_line">MANIKINEKO STORE</string>
+    <string name="refresh">Refresh</string>
+    <string name="install">Install</string>
+    <string name="update">Update</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="open">Open</string>
+    <string name="cancel">Cancel</string>
+    <string name="loading">Loading…</string>
+    <string name="empty_hint">No apps in the store yet.</string>
+    <string name="state_new">Not installed</string>
+    <string name="state_installed">Installed %1$s</string>
+    <string name="state_update">Installed %1$s → update to %2$s</string>
+    <string name="err_network">Cannot reach the store.</string>
+    <string name="err_signature">Catalog signature is invalid. Nothing was changed.</string>
+    <string name="err_hash">Download is corrupt (checksum mismatch). Nothing was installed.</string>
+    <string name="err_install">Install failed: %1$s</string>
+    <string name="downloading">Downloading %1$s…</string>
+    <string name="installing">Installing %1$s…</string>
+    <string name="done">%1$s installed.</string>
+    <string name="min_sdk_fail">Needs a newer Android.</string>
+    <string name="updated">Catalog: %1$s</string>
+    <string name="update_all">Update all</string>
+    <string name="up_to_date">All up to date · catalog %1$s</string>
+    <plurals name="updates_available">
+        <item quantity="one">%1$d update available</item>
+        <item quantity="other">%1$d updates available</item>
+    </plurals>
+    <string name="confirm_install">Confirm the installation of %1$s on the screen.</string>
+</resources>

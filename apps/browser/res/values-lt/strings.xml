@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Naršyklė</string>
+    <string name="url_hint">Ieškokite arba įveskite adresą</string>
+    <string name="back">Atgal</string>
+    <string name="forward">Pirmyn</string>
+    <string name="reload">Atnaujinti</string>
+    <string name="stop">Stop</string>
+    <string name="home">Pradžia</string>
+    <string name="no_app">Nėra programos šiai nuorodai atidaryti.</string>
+</resources>

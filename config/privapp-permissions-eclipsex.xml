@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Privileged-permission allowlist for EclipseX first-party apps
+    (Manikineko userland). Required because the apps live in
+    /product/priv-app and request signature|privileged permissions.
+-->
+<permissions>
+    <privapp-permissions package="online.zyghosting.manikineko.store">
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+    </privapp-permissions>
+    <privapp-permissions package="online.zyghosting.manikineko.home">
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.WRITE_SETTINGS"/>
+    </privapp-permissions>
+</permissions>

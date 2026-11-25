@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Files</string>
+    <string name="brand_line">MANIKINEKO FILES</string>
+    <string name="new_folder">New folder</string>
+    <string name="folder_name">Folder name</string>
+    <string name="create">Create</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_confirm">Delete \"%1$s\"?</string>
+    <string name="empty_hint">This folder is empty.</string>
+    <string name="no_app">No app can open this file.</string>
+    <string name="failed">Failed.</string>
+    <string name="items">%1$d items</string>
+</resources>

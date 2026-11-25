@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recorder</string>
+    <string name="brand_line">MANIKINEKO RECORDER</string>
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_confirm">Delete this recording?</string>
+    <string name="empty_hint">No recordings yet.</string>
+    <string name="err">Cannot record.</string>
+    <string name="share">Share</string>
+</resources>

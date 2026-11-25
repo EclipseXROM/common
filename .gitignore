@@ -1,0 +1,35 @@
+# Build output
+/out/
+/build/
+*.apk
+*.ap_
+*.dex
+*.class
+*.odex
+*.vdex
+*.oat
+*.art
+
+# Keystores and signing material - never commit
+*.keystore
+*.jks
+*.pk8
+*.pem
+*.key
+*.pass
+catalog-key.*
+
+# Stock/proprietary reference files (not distributable)
+/branding/orig/
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+__pycache__/
+*.pyc
+
+# Working trees used by the scripts (device dumps, resign work, etc.)
+/work/
+/recon/
+/backup/

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Manikineko</string>
+    <string name="brand_line">MANIKINEKO PHONE</string>
+    <string name="empty_hint">Nėra leidžiamų programėlių</string>
+
+    <string name="about_title">Apie telefoną</string>
+    <string name="info_version">Manikineko Phone versija</string>
+    <string name="info_build">Build numeris</string>
+    <string name="info_android">Android versija</string>
+    <string name="info_device">Įrenginys</string>
+    <string name="info_kernel">Kernelio versija</string>
+    <string name="info_build_date">Build data</string>
+    <string name="info_patch">Saugumo atnaujinimas</string>
+    <string name="info_baseband">Baseband versija</string>
+    <string name="info_maintainer">Prižiūrėtojas</string>
+    <string name="info_maintainer_value">Manikineko</string>
+    <string name="info_org">Organizacija</string>
+    <string name="info_org_value">ZygHosting</string>
+    <string name="info_selinux">SELinux</string>
+    <string name="info_unknown">—</string>
+
+    <!-- first-run setup (OOBE) -->
+    <string name="oobe_next">Toliau</string>
+    <string name="oobe_back">Atgal</string>
+    <string name="oobe_finish">Pradėti naudotis telefonu</string>
+    <string name="oobe_step">%1$d / %2$d</string>
+
+    <string name="oobe_welcome_title">Sveiki atvykę į Manikineko Phone</string>
+    <string name="oobe_welcome_body">Telefonas, kuris priklauso jums: be Google paskyros, be sekimo, programos iš mūsų parduotuvės. Nustatymas užtrunka apie minutę.</string>
+    <string name="oobe_welcome_start">Pradėti</string>
+
+    <string name="oobe_lang_title">Kalba</string>
+    <string name="oobe_lang_body">Pasirinkite telefono kalbą. Vėliau ją galėsite pakeisti Nustatymuose.</string>
+
+    <string name="oobe_wifi_title">Wi-Fi</string>
+    <string name="oobe_wifi_body">Prisijunkite prie Wi-Fi, kad gautumėte programas ir atnaujinimus iš Manikineko parduotuvės. Galite praleisti ir padaryti vėliau.</string>
+    <string name="oobe_wifi_open">Atidaryti Wi-Fi nustatymus</string>
+
+    <string name="oobe_time_title">Data ir laikas</string>
+    <string name="oobe_time_body">Patikrinkite datą, laiką ir laiko juostą. Nuo jų priklauso skambučiai ir žadintuvai.</string>
+    <string name="oobe_time_open">Atidaryti datos ir laiko nustatymus</string>
+
+    <string name="oobe_store_title">Programos</string>
+    <string name="oobe_store_body">Parduotuvėje yra atvirojo kodo programos, patikrintos veikti šiame telefone. Atnaujinimai pasirašomi Manikineko ir patikrinami prieš diegiant.</string>
+    <string name="oobe_store_open">Atidaryti parduotuvę</string>
+
+    <string name="oobe_done_title">Viskas paruošta</string>
+    <string name="oobe_done_body">Jūsų Manikineko Phone paruoštas.</string>
+
+    <string name="lang_english" translatable="false">English</string>
+    <string name="lang_lithuanian" translatable="false">Lietuvių</string>
+</resources>

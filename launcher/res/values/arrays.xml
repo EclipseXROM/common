@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+      The launcher shows ONLY these packages, in this order.
+      Anything not installed is skipped silently, so this list can stay
+      ahead of the debloat state. Add Manikineko apps here as they appear.
+    -->
+    <string-array name="allowed_packages">
+        <!-- LineageOS 13 / AOSP names first; Samsung KitKat names below are skipped when absent -->
+        <item>com.android.dialer</item>
+        <item>com.android.contacts</item>
+        <item>com.android.messaging</item>
+        <item>com.android.deskclock</item>
+        <item>com.android.calculator2</item>
+        <item>online.zyghosting.manikineko.notes</item>
+        <item>online.zyghosting.manikineko.files</item>
+        <item>online.zyghosting.manikineko.browser</item>
+        <item>online.zyghosting.manikineko.store</item>
+        <item>com.android.camera2</item>
+        <item>com.android.gallery3d</item>
+        <item>com.android.settings</item>
+        <!-- Sony Xperia (stock Android 4.1) -->
+        <item>com.sonyericsson.android.socialphonebook</item>
+        <item>com.sonyericsson.conversations</item>
+        <item>com.google.android.deskclock</item>
+        <item>com.sonyericsson.android.camera</item>
+        <item>com.sonyericsson.album</item>
+        <item>com.sonyericsson.music</item>
+        <item>com.sonyericsson.fmradio</item>
+        <!-- Samsung KitKat stock -->
+        <item>com.android.mms</item>
+        <item>com.sec.android.app.clockpackage</item>
+        <item>com.sec.android.app.popupcalculator</item>
+        <item>com.sec.android.app.camera</item>
+        <item>com.sec.android.gallery3d</item>
+    </string-array>
+
+</resources>

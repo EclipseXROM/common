@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Užrašai</string>
+    <string name="brand_line">MANIKINEKO UŽRAŠAI</string>
+    <string name="new_note">Naujas</string>
+    <string name="delete">Ištrinti</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="delete_confirm">Ištrinti šį užrašą?</string>
+    <string name="empty_hint">Užrašų dar nėra. Spauskite „Naujas“.</string>
+    <string name="untitled">(be pavadinimo)</string>
+    <string name="edit_hint">Rašykite...</string>
+    <string name="share">Dalintis</string>
+</resources>

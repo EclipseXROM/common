@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="brand_line">MANIKINEKO NOTES</string>
+    <string name="new_note">New</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_confirm">Delete this note?</string>
+    <string name="empty_hint">No notes yet. Tap New to write one.</string>
+    <string name="untitled">(untitled)</string>
+    <string name="edit_hint">Write something...</string>
+    <string name="share">Share</string>
+</resources>

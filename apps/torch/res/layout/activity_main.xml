@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mk_bg">
+    <Button
+        android:id="@+id/toggle"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:text="@string/off"
+        android:textColor="@color/mk_text"
+        android:textSize="22sp"
+        android:background="@color/mk_surface_hi" />
+</FrameLayout>

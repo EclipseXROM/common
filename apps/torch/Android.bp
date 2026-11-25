@@ -1,0 +1,19 @@
+// EclipseX first-party app (from the Manikineko userland merge).
+// Plain Java app: src/ + res/ + AndroidManifest.xml, no Gradle.
+android_app {
+    name: "EclipseXTorch",
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+    manifest: "AndroidManifest.xml",
+    // system_current: these apps were written against internal APIs
+    // (e.g. ActivityManagerNative); do not downgrade to "current".
+    sdk_version: "system_current",
+    // Signed with the platform key: first-party suite, may hold
+    // signature-level permissions.
+    certificate: "platform",
+    // Installed into /product so /system stays GSI-compatible.
+    product_specific: true,
+    optimize: {
+        enabled: false,
+    },
+}

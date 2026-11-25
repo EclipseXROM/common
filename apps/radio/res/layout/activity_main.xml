@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mk_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp"
+        android:text="@string/brand_line"
+        android:textColor="@color/mk_text_dim"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/mk_surface" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/mk_surface"
+        android:dividerHeight="1dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@color/mk_surface_hi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/mk_surface">
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="14dp"
+            android:textColor="@color/mk_accent"
+            android:textSize="14sp"
+            android:singleLine="true" />
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/stop"
+            android:textColor="@color/mk_bg"
+            android:textSize="16sp"
+            android:background="@color/mk_accent" />
+    </LinearLayout>
+</LinearLayout>

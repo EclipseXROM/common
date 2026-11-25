@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MRPL Radio</string>
+    <string name="brand_line">MRPL RADIJAS</string>
+    <string name="stop">Stop</string>
+    <string name="state_idle">Pasirinkite stotį</string>
+    <string name="state_connecting">Jungiamasi…</string>
+    <string name="state_playing">Groja</string>
+    <string name="state_error">Šios stoties paleisti nepavyko. Patikrinkite ryšį.</string>
+    <string name="station_main">MRPL</string>
+    <string name="station_main_sub">Pagrindinis srautas</string>
+    <string name="station_classics">MRPL Classics</string>
+    <string name="station_classics_sub">Klasikos srautas</string>
+</resources>

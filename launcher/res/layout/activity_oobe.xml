@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mk_bg"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="28dp"
+    android:paddingBottom="16dp">
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/oobe_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/mk_text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/oobe_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/mk_text_dim"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/oobe_actions"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:id="@+id/oobe_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="8dp"
+        android:textColor="@color/mk_text_dim"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/oobe_back"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="@string/oobe_back"
+            android:textColor="@color/mk_text"
+            android:background="@color/mk_surface" />
+        <Button
+            android:id="@+id/oobe_next"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/mk_bg"
+            android:background="@color/mk_accent" />
+    </LinearLayout>
+</LinearLayout>

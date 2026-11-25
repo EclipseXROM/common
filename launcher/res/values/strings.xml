@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Manikineko</string>
+    <string name="brand_line">MANIKINEKO PHONE</string>
+    <string name="empty_hint">No allowed apps</string>
+
+    <string name="about_title">About phone</string>
+    <string name="info_version">Manikineko Phone version</string>
+    <string name="info_build">Build number</string>
+    <string name="info_android">Android version</string>
+    <string name="info_device">Device</string>
+    <string name="info_kernel">Kernel version</string>
+    <string name="info_build_date">Build date</string>
+    <string name="info_patch">Security update</string>
+    <string name="info_baseband">Baseband version</string>
+    <string name="info_maintainer">Maintainer</string>
+    <string name="info_maintainer_value">Manikineko</string>
+    <string name="info_org">Organization</string>
+    <string name="info_org_value">ZygHosting</string>
+    <string name="info_selinux">SELinux</string>
+    <string name="info_unknown">—</string>
+
+    <!-- first-run setup (OOBE) -->
+    <string name="oobe_next">Next</string>
+    <string name="oobe_back">Back</string>
+    <string name="oobe_finish">Start using the phone</string>
+    <string name="oobe_step">%1$d / %2$d</string>
+
+    <string name="oobe_welcome_title">Welcome to Manikineko Phone</string>
+    <string name="oobe_welcome_body">A phone that is yours: no Google account, no tracking, apps from our own store. Setup takes about a minute.</string>
+    <string name="oobe_welcome_start">Get started</string>
+
+    <string name="oobe_lang_title">Language</string>
+    <string name="oobe_lang_body">Choose the language of the phone. You can change it later in Settings.</string>
+
+    <string name="oobe_wifi_title">Wi-Fi</string>
+    <string name="oobe_wifi_body">Connect to Wi-Fi to get apps and updates from the Manikineko Store. You can skip this and do it later.</string>
+    <string name="oobe_wifi_open">Open Wi-Fi settings</string>
+
+    <string name="oobe_time_title">Date and time</string>
+    <string name="oobe_time_body">Check the date, time and time zone. Calls and alarms depend on them.</string>
+    <string name="oobe_time_open">Open date and time settings</string>
+
+    <string name="oobe_store_title">Apps</string>
+    <string name="oobe_store_body">The Store has open source apps checked to run on this phone. Updates are signed by Manikineko and verified before installing.</string>
+    <string name="oobe_store_open">Open the Store</string>
+
+    <string name="oobe_done_title">All set</string>
+    <string name="oobe_done_body">Your Manikineko Phone is ready.</string>
+
+    <string name="lang_english" translatable="false">English</string>
+    <string name="lang_lithuanian" translatable="false">Lietuvių</string>
+</resources>

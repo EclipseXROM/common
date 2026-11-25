@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Failai</string>
+    <string name="brand_line">MANIKINEKO FAILAI</string>
+    <string name="new_folder">Naujas aplankas</string>
+    <string name="folder_name">Aplanko pavadinimas</string>
+    <string name="create">Sukurti</string>
+    <string name="delete">Ištrinti</string>
+    <string name="share">Dalintis</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="delete_confirm">Ištrinti „%1$s“?</string>
+    <string name="empty_hint">Aplankas tuščias.</string>
+    <string name="no_app">Nėra programos šiam failui atidaryti.</string>
+    <string name="failed">Nepavyko.</string>
+    <string name="items">Elementų: %1$d</string>
+</resources>
